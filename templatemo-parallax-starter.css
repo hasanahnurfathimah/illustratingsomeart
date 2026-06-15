@@ -450,6 +450,19 @@ img {
     border-color: var(--white);
 }
 
+.form-group{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+.form-group label{
+    color:white;
+    text-align:left;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
 /* --- Footer --- */
 #templatemo-footer {
     background: #111;
