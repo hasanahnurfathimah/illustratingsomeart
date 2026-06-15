@@ -27,7 +27,6 @@ body::before {
 
 .wrapper {
   width: 400px;
-  min-height: 520px;
   max-width: 90%;
   border-radius: 9px;
   padding: 30px;
