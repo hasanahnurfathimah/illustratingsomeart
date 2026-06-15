@@ -21,7 +21,9 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: url("bekgron.jpg") center center / cover no-repeat;
+  background: 
+    linear-gradient(rgba(60,40,20,0.35), rgba(60,40,20,0.35)),
+    url("bekgron.jpg") center center / cover no-repeat;
   z-index: -1;
 }
 
