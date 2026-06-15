@@ -564,6 +564,19 @@ img {
         grid-template-columns: 1fr;
         gap: 35px;
     }
+   
+   .service-icon img{
+    width:140px;
+    height:140px;
+    object-fit:cover;
+    border-radius:20px;
+    margin:auto;
+    transition:0.3s;
+   }
+   
+   .service-icon img:hover{
+    transform:translateY(-8px);
+   }
 
     .about-cols {
         grid-template-columns: 1fr;
